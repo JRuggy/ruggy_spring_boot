@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class UserController {
-    @RequestMapping(path = {"ruggy","jarred"},method = {RequestMethod.GET})
+    @RequestMapping(path = {"ruggy","jarred","noway"},method = {RequestMethod.GET})
 
     public String ruggy(){
         return "This is Jaston Ruggy";
