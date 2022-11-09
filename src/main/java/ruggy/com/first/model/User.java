@@ -19,4 +19,13 @@ public class User implements Serializable{
     public User(){
         // TODO Auto-generated constructor stub
     }
+
+    //This is for id 
+    public Long getId(){
+        return id;
+    }
+
+    public void setId(Long id){
+        this.id = id;
+    }
 }
