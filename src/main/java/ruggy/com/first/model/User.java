@@ -28,4 +28,31 @@ public class User implements Serializable{
     public void setId(Long id){
         this.id = id;
     }
+
+    //This is for first name 
+    public String getFistName(){
+        return firstname;
+    }
+
+    public void setFirstName(String firstname){
+        this.firstname = firstname;
+    }
+
+    //This is for last name 
+    public String getLastName(){
+        return lastname;
+    }
+
+    public void setLastName(String lastname){
+        this.lastname = lastname;
+    }
+
+    //This is for email
+    public String getEmail(){
+        return email;
+    }
+
+    public void setEmail(String email){
+        this.email = email;
+    }
 }
